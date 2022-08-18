@@ -19,4 +19,4 @@ function divide(number1,number2) {
 const number1 = parseInt(prompt("Enter a numer: "));
 const number2 = parseInt(prompt("Enter another number: "));
 
-window.alert("\nThe sum is: " + add(number1,number2) + "\n" + "The difference is: " + subtract(number1, number2) + "\n" + "The product is: " + multiply(number1,number2) + "\n" + "The quotient is: " + divide(number1,number2) + "\n");
+window.alert("\n" + number1 + "+" + number2 + "=" + add(number1,number2) + "\n" + number1 + "-" + number2 + "=" + subtract(number1, number2) + "\n" + number1 + "*" + number2 + "=" + multiply(number1,number2) + "\n" + number1 + "/" + number2 + "=" + divide(number1,number2) + "\n");
